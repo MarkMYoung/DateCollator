@@ -1,0 +1,39 @@
+{
+  "name": "datecollator",
+  "version": "0.0.1",
+  "description": "Date collation by specified date parts for granular comparison.",
+  "type": "module",
+  "main": "index.js",
+  "module": "./src/DateCollator.js",
+  "browser": "./src/DateCollator.js",
+  "directories": {
+    "spec": "spec"
+  },
+  "scripts": {
+    "test": "babel-node ./spec/SpecRunner.js",
+    "test-coverage": "nyc --require @std/esm npm run test"
+  },
+  "keywords": [
+    "collate",
+    "collation",
+    "collator",
+    "date"
+  ],
+  "author": "Mark M. Young",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/MarkMYoung/DateCollator#readme",
+  "bugs": {
+    "url": "https://github.com/MarkMYoung/DateCollator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkMYoung/DateCollator.git"
+  },
+  "devDependencies": {
+    "@std/esm": "^0.26.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jasmine": "^3.5.0",
+    "nyc": "^15.0.0"
+  }
+}

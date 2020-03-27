@@ -1,0 +1,32 @@
+{
+	"name":"DateCollator",
+	"description":"Date collation by specified date parts for granular comparison.",
+
+	"authors":["Mark M. Young"],
+	"dependencies":{},
+	"ignore":
+	[
+		"**/.*",
+		"bower_components",
+		"coverage",
+		"node_modules",
+		"_notes",
+		"spec"
+	],
+	"keywords":
+	[
+		"collate",
+		"collation",
+		"collator",
+		"date"
+	],
+	"license":"AGPL-3.0",
+	"main":
+	[
+		"index.js"
+	],
+	"moduleType":
+	[
+		"es6"
+	]
+}
